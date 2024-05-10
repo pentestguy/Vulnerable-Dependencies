@@ -26,6 +26,7 @@ jobs:
       scanPath: '**/*.csproj'
       format: 'HTML, JSON, JUNIT'
       failOnCVSS: '8'
+      nvdApiKey: $(nvdapi)
 
   - task: PublishTestResults@2
     displayName: "Publish Dependency Checks Tests Results"
