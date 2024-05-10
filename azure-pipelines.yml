@@ -22,7 +22,7 @@ jobs:
     displayName: Dependency Checker - Security
     continueOnError: true
     inputs:
-      projectName: 'Security.API'
+      projectName: 'Dependency.Check'
       scanPath: '**/*.csproj'
       format: 'HTML, JSON, JUNIT'
       failOnCVSS: '8'
